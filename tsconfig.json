@@ -1,0 +1,23 @@
+{
+  "extends": "astro/tsconfigs/strictest",
+  "include": ["./generate.ts"],
+  "compilerOptions": {
+    "noUnusedLocals": false,
+    "target": "ESNext",
+    "lib": ["dom", "ESNext"],
+    "strictNullChecks": true,
+    "baseUrl": ".",
+    "types": [
+      "@astrojs/image/client"
+    ],
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+      "~/*": [
+        "public/*"
+      ]
+    },
+    "jsx": "preserve"
+  }
+}
