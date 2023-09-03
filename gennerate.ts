@@ -1,4 +1,4 @@
-import  blah from "./config.json"  assert { type: 'json' };
+import  blah from "./src/config.json"  assert { type: 'json' };
 import {promises} from "fs"
 import { parse } from 'node-html-parser';
 import  {google} from 'googleapis';

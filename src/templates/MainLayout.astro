@@ -1,0 +1,31 @@
+---
+import Header from "@/organisms/Header.astro";
+import "@/styles/global.sass";
+import "@/styles/base.css";
+import Footer from "@/organisms/Footer.astro";
+
+---
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <slot name="head"/>
+  <script >
+    import {setCurrentTheme} from "@/utils";
+    setCurrentTheme();
+  </script>
+</head>
+<body>
+<Header/>
+<main>
+  <slot name="body"/>
+</main>
+<Footer/>
+</body>
+</html>
+<style lang="sass">
+  body
+    @apply mx-auto container max-w-3xl px-4
+    margin: 0 auto !important
+  main
+    margin-top: 16px
+</style>

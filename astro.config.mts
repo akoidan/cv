@@ -1,5 +1,5 @@
 import {defineConfig} from 'astro/config';
-import config from "./config.json";
+import config from "./src/config.json";
 import image from "@astrojs/image";
 import robotsTxt from 'astro-robots-txt';
 

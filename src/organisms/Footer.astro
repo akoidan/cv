@@ -1,0 +1,35 @@
+---
+import SocialIcons from "@/molecules/SocialIcons.astro";
+import Hr from "@/atoms/Hr.astro";
+import config from "@/config.json"
+const currentYear = new Date().getFullYear();
+
+export interface Props {
+  noMarginTop?: boolean;
+}
+
+const { noMarginTop = false } = Astro.props;
+---
+
+<footer class={`${noMarginTop ? "" : "mt-auto"}`}>
+  <Hr noPadding />
+  <div class="footer-wrapper">
+    <SocialIcons centered />
+    <div class="copyright-wrapper">
+      <span> &#169; {config.author} {currentYear}</span>
+    </div>
+  </div>
+</footer>
+
+<style lang="sass">
+  footer
+    width: 100%
+    padding: 0
+
+  .footer-wrapper
+    @apply flex flex-col items-center justify-between sm:flex-row-reverse
+    margin: 16px 0
+
+  .separator
+    @apply hidden sm:inline
+</style>

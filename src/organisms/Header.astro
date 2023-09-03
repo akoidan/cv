@@ -1,0 +1,115 @@
+---
+import Search from "~/nav/search.svg?raw";
+import Moon from "~/theme/moon.svg?raw";
+import Sun from "~/theme/sun.svg?raw";
+import Hamburger from "~/nav/hamburger.svg?raw";
+
+const currentPath = Astro.url.pathname;
+---
+<header class="header" id="header">
+  <nav class="navigation">
+    <a class="home" href="/" class:list={[{ active: currentPath === '/' }]}>AK Blog</a>
+    <a href="/posts" class:list={[{ active: currentPath.startsWith('/posts') }]}>Posts</a>
+    <a href="/tags" class:list={[{ active: currentPath.startsWith('/tags') }]}>Tags</a>
+    <a href="https://akoidan.com">Portfolio</a>
+  </nav>
+  <div class="icons">
+    <a class="search" href="/search" title="Search" class:list={[{ active: currentPath.startsWith('/search') }]}>
+      <Fragment set:html={Search}/>
+    </a>
+    <div class="switcher-changer">
+      <div class="moon">
+        <Fragment set:html={Moon}/>
+      </div>
+      <div class="sun">
+        <Fragment set:html={Sun}/>
+      </div>
+    </div>
+  </div>
+  <button class="hamburger">
+    <Fragment set:html={Hamburger}/>
+  </button>
+</header>
+<script>
+  import {switchTheme} from "@/utils/theme";
+  document.querySelector('.switcher-changer').addEventListener('click', switchTheme)
+  const header = document.getElementById('header')
+  document.querySelector('.hamburger').addEventListener('click', () => {
+    header.classList.toggle('open');
+  });
+</script>
+<style lang="sass">
+  $screen-collapse-size: 580px
+  .switcher-changer
+    display: flex
+    flex-direction: row
+    font-weight: 500
+    &:hover
+     color: rgba(var(--color-accent),var(--tw-text-opacity))
+  .header
+    position: sticky
+    top: 0
+    background-color: rgba(var(--color-fill), var(--tw-bg-opacity))
+    z-index: 1
+    &.open
+      :global(.line)
+         display: none
+      button
+        margin-left: auto
+      @media screen and (max-width: $screen-collapse-size)
+        flex-direction: column-reverse
+        gap: 8px
+        .icons
+          margin-left: 0
+          display: flex
+          flex-direction: row
+          justify-content: center
+        .navigation
+          display: flex
+          flex-direction: column
+          background-color: rgba(var(--color-fill), var(--tw-bg-opacity))
+    &:not(.open)
+      @media screen and (max-width: $screen-collapse-size)
+        .navigation
+          display: none
+      :global(.close)
+        display: none
+  .hamburger
+    display: flex
+    @media screen and (min-width: $screen-collapse-size)
+      display: none
+  :global(html[data-theme="dark"]) .moon
+    display: none
+  :global(html[data-theme="light"]) .sun
+    display: none
+  header
+    border-bottom: 1px solid rgba(var(--color-border),var(--tw-border-opacity))
+    display: flex
+    gap: 32px
+    padding: 32px 0
+  .home
+    margin-right: auto
+  nav
+    flex: 1
+    font-weight: 500
+    display: flex
+    gap: 32px
+    margin: 0
+
+    a
+      cursor: pointer
+      &:hover, &.active
+        color: rgba(var(--color-accent),var(--tw-text-opacity))
+  .icons
+    margin-left: auto
+    display: flex
+    gap: 32px
+  header :global(svg)
+    cursor: pointer
+    fill: rgb(var(--color-text-base))
+  header
+    .search, .switcher-changer
+      :global(svg):hover
+        transform: rotate(12deg)
+        fill: rgba(var(--color-accent),var(--tw-text-opacity))
+</style>
