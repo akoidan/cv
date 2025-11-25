@@ -13,7 +13,7 @@
 
 - Deep expertise in **DevOps** (GCP/AWS/CF, Kubernetes, CI/CD).
 
-- Strong in **Java**, **Python**, **Go**, **Javascript**, **TypeScript.**
+- Strong in **Java**, **Python**, **Go**, **JavaScript**, **TypeScript.**
 
 - **Specialist** Degree in System Programming at CNTU, 2009-2014.
 
@@ -23,7 +23,7 @@
 
 - Led the division, driving the strategic direction and technical excellence across **six concurrent projects**, including AI solutions.  
 - Streamlined **DevOps** infrastructure, **reducing build times by 50%** and improving deployment reliability and code readability.  
-- Enhanced security and achieved **medical-device certification.**  
+- Enhanced security and achieved **medical device certification.**  
 - Delivered hands-on leadership and built critical system components **beyond senior-engineer** complexity.  
 - Led internal engineering **conferences** with **20–30 participants** and mentored teams across the organization.
 
@@ -41,7 +41,7 @@
 - Built **web** SR/SPA/Static **applications** on **React, Vue,** TypeScript, Redux, Vite, Webpack, GraphQL, Cypress, Playwright, Gatsby.  
 - Delivered **mobile applications** using **React Native, Java, Kotlin**, including native **Android**, hybrid iOS/Android, and Android TV.  
 - Built and migrated production systems to **event-driven microservices**, improving scalability, maintainability, and velocity.  
-- Designed and automated **CI/CD pipelines**, and managed **AWS/GCP** infrastructure using **Pulumi**, **Terraform**, **Docker, Kubernetes.**  
+- Designed and automated **CI/CD pipelines**, and managed **AWS/GCP** infrastructure using **Pulumi**, **Terraform**, **Docker, and  Kubernetes.**  
 - Handled **PostgreSQL**, **Cassandra**, **MongoDB**, **Neo4j**, **RabbitMQ**, **Redis**, **Elasticsearch, MySQL, Pinecone** databases in high-traffic systems.  
 - Built a decentralized P2P **crypto** marketplace [Kitzen](https://github.com/kitzen-io) for Tron, Ethereum, and Bitcoin networks.  
-- Created **open-source** projects [lines-logger](https://github.com/akoidan/lines-logger), webrtc [pychat](https://github.com/akoidan/pychat), [spainter](https://github.com/akoidan/spainter), [http-remote-pc-control](https://github.com/akoidan/http-remote-pc-control), [hotkey-hub](https://github.com/akoidan/hotkey-hub), [stream-alert](https://github.com/akoidan/stream-alert).
+- Created **open-source** projects [lines-logger](https://github.com/akoidan/lines-logger), WebRTC [pychat](https://github.com/akoidan/pychat), [spainter](https://github.com/akoidan/spainter), [http-remote-pc-control](https://github.com/akoidan/http-remote-pc-control), [hotkey-hub](https://github.com/akoidan/hotkey-hub), [stream-alert](https://github.com/akoidan/stream-alert).  
