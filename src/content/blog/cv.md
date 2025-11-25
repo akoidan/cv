@@ -31,7 +31,7 @@
 - **Led** a team of **7 people** and built a product using **Go, Vue,** Cypress, and **React Native**, accelerating feature delivery and maintainability.
 - Mentored engineers and coordinated cross-functional teams, improving delivery efficiency and code quality.
 
-## **Earlier Engineering Experience** Dec’13 \- Apr’20
+## **Earlier Engineering Experience** Dec’13 \- May’21
 
 - Delivered **30+ production systems** across **web, backend**, and **mobile.**
 - Developed backend systems using **Python** (DRF, Flask), **Java** (Spring), **Go**, **Node** (NextJS), **Kotlin.**
