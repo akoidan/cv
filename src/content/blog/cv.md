@@ -1,11 +1,6 @@
-# ANDREW KOIDAN
+#  **ANDREW KOIDAN**
 
-- Email:  [deathangel908@gmail.com](mailto:deathangel908@gmail.com)
-- Stackoverflow:  [deathangel908](https://stackoverflow.com/users/3872976/deathangel908)
-- Github:  [akoidan](https://github.com/akoidan)
-- LinkedIn:  [akoidan](https://www.linkedin.com/in/akoidan/)
-- Blog:  [blog.akoidan.com](https://blog.akoidan.com)
-- Location:  Rijeka/Croatia
+[Email](mailto:deathangel908@gmail.com) · [LinkedIn](https://www.linkedin.com/in/akoidan) · [GitHub](https://github.com/akoidan) · [StackOverflow](https://stackoverflow.com/users/3872976/deathangel908) · [Blog](https://blog.akoidan.com)
 
 # SUMMARY
 
@@ -19,13 +14,14 @@
 
 # PROFESSIONAL BACKGROUND
 
-## **Head of Division** at [Significo](https://www.linkedin.com/company/significo-health/) Sep’23 \- Sep’25
+## **Principal Engineer** at [Significo](https://www.linkedin.com/company/significo-health/) Sep’23 \- Sep’25
 
-- Led the division, driving the strategic direction and technical excellence across **six concurrent projects**, including AI solutions.  
-- Streamlined **DevOps** infrastructure, **reducing build times by 50%** and improving deployment reliability and code readability.  
+- Drove technical strategy and architecture across **six concurrent projects** in **Kotlin**, and **Typescript**.  
+- Streamlined Kubernetes-based **DevOps** infrastructure, **reducing build times by 50%** and improving deployment reliability and code readability.  
 - Enhanced security and achieved **medical device certification.**  
 - Delivered hands-on leadership and built critical system components **beyond senior-engineer** complexity.  
-- Led internal engineering **conferences** with **20–30 participants** and mentored teams across the organization.
+- Led internal engineering **conferences** with **20–30 participants** and mentored teams across the organization.  
+- Maintained a complex AI-driven platform, including **Python** and **Node.js** services, an **iOS** app, and 20+ integrations and a RAG pipeline.
 
 ## **Team Lead** at [Vertrical](https://www.linkedin.com/company/vertrical/mycompany/) May’21 \- May’23
 
@@ -44,4 +40,5 @@
 - Designed and automated **CI/CD pipelines**, and managed **AWS/GCP** infrastructure using **Pulumi**, **Terraform**, **Docker, and  Kubernetes.**  
 - Handled **PostgreSQL**, **Cassandra**, **MongoDB**, **Neo4j**, **RabbitMQ**, **Redis**, **Elasticsearch, MySQL, Pinecone** databases in high-traffic systems.  
 - Built a decentralized P2P **crypto** marketplace [Kitzen](https://github.com/kitzen-io) for Tron, Ethereum, and Bitcoin networks.  
-- Created **open-source** projects [lines-logger](https://github.com/akoidan/lines-logger), WebRTC [pychat](https://github.com/akoidan/pychat), [spainter](https://github.com/akoidan/spainter), [http-remote-pc-control](https://github.com/akoidan/http-remote-pc-control), [hotkey-hub](https://github.com/akoidan/hotkey-hub), [stream-alert](https://github.com/akoidan/stream-alert).  
+- Created **open-source** projects [lines-logger](https://github.com/akoidan/lines-logger), WebRTC [pychat](https://github.com/akoidan/pychat), [spainter](https://github.com/akoidan/spainter), [http-remote-pc-control](https://github.com/akoidan/http-remote-pc-control), [hotkey-hub](https://github.com/akoidan/hotkey-hub), [stream-alert](https://github.com/akoidan/stream-alert).
+
