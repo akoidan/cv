@@ -16,7 +16,7 @@
 
 ## **Principal Engineer** at [Significo](https://www.linkedin.com/company/significo-health/) Sep’23 \- Sep’25
 
-- Drove technical strategy and architecture across **six concurrent products** in **Kotlin**, and **Typescript**.  
+- Drove technical strategy and architecture across **six concurrent products** primarily in **Kotlin**, and **Typescript**.  
 - Streamlined Kubernetes-based **DevOps** infrastructure, **reducing build times by 50%** and improving deployment reliability and code readability.  
 - Enhanced security and achieved **medical device certification.**  
 - Delivered hands-on leadership and built critical system components **beyond senior-engineer** complexity.  
