@@ -25,7 +25,7 @@
 
 ## **Team Lead** at [Vertrical](https://www.linkedin.com/company/vertrical/mycompany/) May’21 \- May’23
 
-- Built and scaled a **large e-commerce** platform using Gatsby, backed by **microservices** on **Kubernetes** and NestJS, serving up to **50k TPS.**   
+- Built and scaled a **large e-commerce** platform using Gatsby, backed by **microservices** on **Kubernetes** and NestJS, serving up to **10k RPS.**   
 - Automated infrastructure with **ArgoCD, CircleCI, Netlify**, and **Helm.**  
 - **Led** a team of **7 people** and built a product using **Go, Vue,** Cypress, and **React Native**, accelerating feature delivery and maintainability.  
 - Mentored engineers and coordinated cross-functional teams, improving delivery efficiency and code quality.
