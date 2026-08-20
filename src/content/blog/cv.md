@@ -14,7 +14,7 @@
 
 # PROFESSIONAL BACKGROUND
 
-## **Principal Engineer** at [Significo](https://www.linkedin.com/company/significo-health/) Jun’23 \- Feb’26
+## **Principal Engineer** at [Significo](https://www.linkedin.com/company/significo-health/) Jun’23 \- Jul’26
 
 - Drove technical strategy and architecture across **six concurrent products** primarily in **Kotlin**, **Typescript**, and **Go**.
 - Streamlined Kubernetes-based **DevOps** infrastructure, **reducing build times by 50%** and improving deployment reliability and code readability.  
